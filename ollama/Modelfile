@@ -1,0 +1,5 @@
+# Qwen3 8B with a larger context for the agent (instructions + 9 tools + results go over 4k tokens).
+# Ollama's OpenAI-compatible API doesn't accept num_ctx per request; hence the derived model.
+#   ollama pull qwen3:8b && ollama create qwen3-ipe-8b -f ollama/Modelfile
+FROM qwen3:8b
+PARAMETER num_ctx 32768

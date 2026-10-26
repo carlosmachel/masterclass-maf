@@ -1,0 +1,39 @@
+product_id,sku,name,category,price,refrigerated
+1,CG-001,Pizza congelada calabresa 460g,Congelados,24.9,1
+2,CG-002,Lasanha bolonhesa 600g,Congelados,21.5,1
+3,CG-003,"Sorvete creme 1,5L",Congelados,29.9,1
+4,CG-004,Hambúrguer bovino cx 672g,Congelados,27.4,1
+5,CG-005,Batata palito pré-frita 1kg,Congelados,19.9,1
+6,CG-006,Peito de frango congelado 1kg,Congelados,22.9,1
+7,CG-007,Pão de queijo 1kg,Congelados,26.5,1
+8,LT-001,Leite integral 1L,Laticínios,5.49,1
+9,LT-002,Iogurte natural 170g,Laticínios,3.29,1
+10,LT-003,Queijo muçarela fatiado 150g,Laticínios,9.9,1
+11,LT-004,Manteiga com sal 200g,Laticínios,12.9,1
+12,LT-005,Requeijão cremoso 200g,Laticínios,8.49,1
+13,LT-006,Creme de leite 200g,Laticínios,3.99,0
+14,BB-001,"Água mineral 1,5L",Bebidas,2.99,0
+15,BB-002,Refrigerante cola 2L,Bebidas,9.49,0
+16,BB-003,Cerveja lata 350ml,Bebidas,3.99,0
+17,BB-004,Suco de uva integral 1L,Bebidas,14.9,0
+18,BB-005,Energético 250ml,Bebidas,8.99,0
+19,BB-006,Café torrado 500g,Bebidas,19.9,0
+20,BB-007,"Chá gelado limão 1,5L",Bebidas,7.49,0
+21,HF-001,Banana prata kg,Hortifruti,5.99,0
+22,HF-002,Tomate italiano kg,Hortifruti,8.49,0
+23,HF-003,Alface crespa un,Hortifruti,3.49,1
+24,HF-004,Batata inglesa kg,Hortifruti,4.99,0
+25,HF-005,Maçã gala kg,Hortifruti,9.9,0
+26,HF-006,Cebola kg,Hortifruti,4.49,0
+27,MC-001,Arroz branco 5kg,Mercearia,27.9,0
+28,MC-002,Feijão carioca 1kg,Mercearia,8.49,0
+29,MC-003,Azeite extra virgem 500ml,Mercearia,34.9,0
+30,MC-004,Macarrão espaguete 500g,Mercearia,4.99,0
+31,MC-005,Açúcar refinado 1kg,Mercearia,4.79,0
+32,MC-006,Óleo de soja 900ml,Mercearia,7.99,0
+33,MC-007,Molho de tomate 340g,Mercearia,3.49,0
+34,MC-008,Biscoito recheado 140g,Mercearia,3.29,0
+35,PD-001,Pão francês kg,Padaria,14.9,0
+36,PD-002,Pão de forma integral,Padaria,9.9,0
+37,PD-003,Bolo de cenoura un,Padaria,18.9,0
+38,PD-004,Croissant un,Padaria,6.5,0

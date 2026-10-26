@@ -1,0 +1,21 @@
+store_id,name,city,state,region,manager,area_m2,opened_on
+1,Ipê Paulista,São Paulo,SP,Sudeste,Marina Duarte,2400,2019-06-04
+2,Ipê Moema,São Paulo,SP,Sudeste,Rafael Lins,1800,2014-11-07
+3,Ipê Copacabana,Rio de Janeiro,RJ,Sudeste,Juliana Castro,1600,2021-04-10
+4,Ipê Batel,Curitiba,PR,Sul,Thiago Moreira,2100,2016-09-13
+5,Ipê Savassi,Belo Horizonte,MG,Sudeste,Camila Rocha,1900,2023-02-16
+6,Ipê Moinhos,Porto Alegre,RS,Sul,Eduardo Prates,1700,2018-07-19
+7,Ipê Cambuí,Campinas,SP,Sudeste,Patrícia Nogueira,2000,2013-12-22
+8,Ipê Asa Sul,Brasília,DF,Centro-Oeste,Lucas Ferraz,2200,2020-05-25
+9,Ipê Pituba,Salvador,BA,Nordeste,Aline Santana,1500,2015-10-01
+10,Ipê Aldeota,Fortaleza,CE,Nordeste,Bruno Araújo,1600,2022-03-04
+11,Ipê Trindade,Florianópolis,SC,Sul,Fernanda Kuhn,1400,2017-08-07
+12,Ipê Praia do Canto,Vitória,ES,Sudeste,Gustavo Pimenta,1300,2012-01-10
+13,Ipê Boa Viagem,Recife,PE,Nordeste,Renata Cavalcanti,1800,2019-06-13
+14,Ipê Setor Bueno,Goiânia,GO,Centro-Oeste,Diego Martins,1700,2014-11-16
+15,Ipê Umarizal,Belém,PA,Norte,Larissa Monteiro,1200,2021-04-19
+16,Ipê Adrianópolis,Manaus,AM,Norte,Henrique Barros,1400,2016-09-22
+17,Ipê Pinheiros,São Paulo,SP,Sudeste,Beatriz Okada,1500,2023-02-25
+18,Ipê Icaraí,Niterói,RJ,Sudeste,Vinícius Teles,1300,2018-07-01
+19,Ipê Centro,Ribeirão Preto,SP,Sudeste,Carolina Freitas,1600,2013-12-04
+20,Ipê Ponta Verde,Maceió,AL,Nordeste,Mateus Lyra,1100,2020-05-07

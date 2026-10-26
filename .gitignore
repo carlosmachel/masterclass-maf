@@ -1,0 +1,15 @@
+bin/
+obj/
+*.user
+.vs/
+.idea/
+.DS_Store
+web/node_modules/
+web/.next/
+web/next-env.d.ts
+
+# Eval (step 7): results and report generated on every run
+demo/eval/
+
+# Harness FileMemoryProvider: one folder per agent session, created at runtime
+agent-file-memory/

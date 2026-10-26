@@ -1,0 +1,24 @@
+ticket_id,freezer_id,store_id,type,status,opened_on,closed_on,description
+1003,FRZ-16-1,16,Revisão preventiva,Fechado,2026-07-18,2026-07-21,Resolvido em visita técnica.
+1004,FRZ-03-1,3,Revisão preventiva,Fechado,2026-07-21,2026-07-25,Resolvido em visita técnica.
+1012,FRZ-13-3,13,Porta não veda,Fechado,2026-07-22,2026-07-28,Resolvido em visita técnica.
+1006,FRZ-17-2,17,Iluminação interna,Fechado,2026-07-24,2026-07-27,Resolvido em visita técnica.
+1019,FRZ-07-1,7,Ruído anormal,Fechado,2026-07-27,2026-07-30,Resolvido em visita técnica.
+1010,FRZ-05-1,5,Ruído anormal,Fechado,2026-08-11,2026-08-15,Resolvido em visita técnica.
+1018,FRZ-20-2,20,Porta não veda,Fechado,2026-08-11,2026-08-13,Resolvido em visita técnica.
+1022,FRZ-07-2,7,Ruído anormal,Fechado,2026-08-11,2026-08-14,Ruído no compressor. Feito ajuste paliativo. Técnico recomenda troca do compressor (equipamento de 2018). Troca aguardando aprovação de orçamento.
+1002,FRZ-04-1,4,Porta não veda,Fechado,2026-08-14,2026-08-19,Resolvido em visita técnica.
+1014,FRZ-02-2,2,Iluminação interna,Fechado,2026-08-15,2026-08-17,Resolvido em visita técnica.
+1001,FRZ-09-2,9,Ruído anormal,Fechado,2026-08-17,2026-08-23,Resolvido em visita técnica.
+1013,FRZ-10-1,10,Ruído anormal,Fechado,2026-08-17,2026-08-18,Resolvido em visita técnica.
+1007,FRZ-13-2,13,Ruído anormal,Fechado,2026-08-28,2026-08-30,Resolvido em visita técnica.
+1009,FRZ-14-2,14,Porta não veda,Fechado,2026-09-03,2026-09-07,Resolvido em visita técnica.
+1008,FRZ-14-2,14,Ruído anormal,Fechado,2026-09-06,2026-09-09,Resolvido em visita técnica.
+1005,FRZ-01-2,1,Revisão preventiva,Fechado,2026-09-11,2026-09-15,Resolvido em visita técnica.
+1015,FRZ-12-2,12,Porta não veda,Fechado,2026-09-11,2026-09-16,Resolvido em visita técnica.
+1017,FRZ-05-2,5,Revisão preventiva,Fechado,2026-09-11,2026-09-13,Resolvido em visita técnica.
+1021,FRZ-04-3,4,Ruído anormal,Fechado,2026-09-12,2026-09-18,Resolvido em visita técnica.
+1011,FRZ-17-1,17,Iluminação interna,Fechado,2026-09-14,2026-09-20,Resolvido em visita técnica.
+1020,FRZ-13-3,13,Iluminação interna,Fechado,2026-09-23,2026-09-24,Resolvido em visita técnica.
+1016,FRZ-03-1,3,Porta não veda,Fechado,2026-09-24,2026-09-28,Resolvido em visita técnica.
+1023,FRZ-13-1,13,Equipamento desligado,Aberto,2026-10-03,,Queda de energia no circuito do freezer. Disjuntor rearmado pela loja; aguardando avaliação de perda de produtos.

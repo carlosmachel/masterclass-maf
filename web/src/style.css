@@ -1,0 +1,58 @@
+/* Same visual language as the masterclass deck (AzureBrasil): royal-to-navy background, ice accent, square
+   corners. Reading text in Atkinson Hyperlegible Next (I/l/1 and 0/O apart), titles and numbers in Archivo,
+   code in Plex Mono. Local files (latin subset): the stage doesn't depend on the internet. */
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  font-weight: 200 800;
+  font-display: block;
+  src: url('./assets/fonts/atkinson-next-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-weight: 400 900;
+  font-display: block;
+  src: url('./assets/fonts/archivo-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Mono';
+  font-weight: 400;
+  font-display: block;
+  src: url('./assets/fonts/plex-mono-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Plex Mono';
+  font-weight: 600;
+  font-display: block;
+  src: url('./assets/fonts/plex-mono-600-latin.woff2') format('woff2');
+}
+
+:root {
+  --font-ui: 'Atkinson Hyperlegible Next', 'Helvetica Neue', Arial, sans-serif;
+  --font-text: var(--font-ui);
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --ice: #b9d6ff;
+  --royal: #2c5cb1;
+  --navy: #211450;
+  font-family: var(--font-ui);
+  font-size: 18px; /* projector: base >= 18px */
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 50% 50%, var(--royal) 0%, var(--navy) 100%) fixed var(--navy);
+  color: var(--p-text-color);
+}
+
+code,
+pre {
+  font-family: var(--font-mono);
+}

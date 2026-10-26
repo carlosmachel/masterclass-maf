@@ -1,0 +1,49 @@
+<Project>
+  <!-- Exact versions. No floating ranges: AG-UI and Hosting are preview. Reasons in README.md. -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Microsoft Agent Framework -->
+    <PackageVersion Include="Microsoft.Agents.AI" Version="1.24.0" />
+    <PackageVersion Include="Microsoft.Agents.AI.Harness" Version="1.24.0" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting" Version="1.24.0-preview.261006.1" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.AGUI.AspNetCore" Version="1.24.0-preview.261006.1" />
+    <!-- MAF declares AGUI.* >= 1.0.0 and NuGet resolves the minimum; the Dojo pins 1.0.1. -->
+    <PackageVersion Include="AGUI.Abstractions" Version="1.0.1" />
+    <PackageVersion Include="AGUI.Server" Version="1.0.1" />
+    <!-- A2A: the DC agent (server) and the on-call agent (client). Same preview line as Hosting. -->
+    <PackageVersion Include="Microsoft.Agents.AI.A2A" Version="1.24.0-preview.261006.1" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.A2A.AspNetCore" Version="1.24.0-preview.261006.1" />
+    <!-- MCP: the analyst as a tool for Claude Code and other MCP clients. -->
+    <PackageVersion Include="ModelContextProtocol.AspNetCore" Version="2.2.0" />
+    <!-- Model and Azure -->
+    <PackageVersion Include="Microsoft.Extensions.AI.OpenAI" Version="10.10.1" />
+    <PackageVersion Include="Azure.AI.OpenAI" Version="2.9.0-beta.1" />
+    <PackageVersion Include="Azure.Identity" Version="1.21.0" />
+    <PackageVersion Include="Azure.Search.Documents" Version="12.0.0" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+    <!-- SqlClient 7: "Authentication=Active Directory Default" lives in this separate package. -->
+    <PackageVersion Include="Microsoft.Data.SqlClient.Extensions.Azure" Version="7.1.1" />
+    <!-- EF Core code-first: schema and views come from the migrations in src/Ipe.Agent/Data/Migrations.
+         EF 10.0.13 declares SqlClient >= 6.1.7; the direct 7.1.1 reference above wins. -->
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.13" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.13" />
+    <!-- Aspire / OpenTelemetry -->
+    <PackageVersion Include="Aspire.Hosting.JavaScript" Version="13.6.1" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="10.10.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.10.0" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.19.1" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.19.1" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.19.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.19.0" />
+    <!-- Eval (step 7): LLM judge and report. Same 10.10 line as Microsoft.Extensions.AI. -->
+    <PackageVersion Include="Microsoft.Extensions.AI.Evaluation" Version="10.10.0" />
+    <PackageVersion Include="Microsoft.Extensions.AI.Evaluation.Quality" Version="10.10.0" />
+    <PackageVersion Include="Microsoft.Extensions.AI.Evaluation.Reporting" Version="10.10.0" />
+    <!-- Tests -->
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageVersion Include="xunit.v3" Version="4.0.2" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="4.0.1" />
+  </ItemGroup>
+</Project>

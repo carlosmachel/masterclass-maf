@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ipe.Agent.Evals/Ipe.Agent.Evals.csproj" />
+    <Project Path="src/Ipe.Agent.Tests/Ipe.Agent.Tests.csproj" />
+    <Project Path="src/Ipe.Agent/Ipe.Agent.csproj" />
+    <Project Path="src/Ipe.AppHost/Ipe.AppHost.csproj" />
+    <Project Path="src/Ipe.DistributionCenter/Ipe.DistributionCenter.csproj" />
+    <Project Path="src/Ipe.FoundryIQ.Setup/Ipe.FoundryIQ.Setup.csproj" />
+    <Project Path="src/Ipe.ServiceDefaults/Ipe.ServiceDefaults.csproj" />
+    <Project Path="src/Ipe.Smoke/Ipe.Smoke.csproj" />
+  </Folder>
+</Solution>

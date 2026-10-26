@@ -1,0 +1,14 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.6.1">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>ipe-apphost-masterclass</UserSecretsId>
+    <NoWarn>$(NoWarn);ASPIRE010</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.JavaScript" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ipe.Agent\Ipe.Agent.csproj" />
+    <ProjectReference Include="..\Ipe.DistributionCenter\Ipe.DistributionCenter.csproj" />
+  </ItemGroup>
+</Project>
