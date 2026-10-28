@@ -774,6 +774,23 @@ _agent = <span class="tk-kw">new</span> <span class="maf">A2ACardResolver</span>
     </div>
   </section>
 
+  <section class="slide" id="e6-orquestracoes">
+    <div class="slide-inner">
+      <p class="k">06 · além do plantão · orquestrações prontas</p>
+      <h2 class="t-md">Com vários agentes, o padrão já vem <span class="accent">pronto</span>.</h2>
+      <table class="ledger dense">
+        <thead><tr><th>Padrão</th><th>Quem escolhe o próximo</th><th>Serve para</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">Sequencial · concorrente</td><td>ninguém: em fila ou todos juntos</td><td>etapas fixas, opiniões em paralelo</td></tr>
+          <tr><td class="strong">Handoff</td><td>o agente da vez passa a conversa</td><td>triagem que encaminha ao especialista</td></tr>
+          <tr><td class="strong">Group chat · Magentic</td><td>um orquestrador (o Magentic planeja)</td><td>revisão em rodadas, tarefa aberta</td></tr>
+          <tr><td class="accent-t">Grafo <code>WorkflowBuilder</code></td><td>as arestas que você desenha <span class="who">o plantão</span></td><td>código onde dá, LLM onde precisa</td></tr>
+        </tbody>
+      </table>
+      <p class="pieces"><b>no código</b><code>AgentWorkflowBuilder</code><code>CreateHandoffBuilderWith</code><code>AsAIAgent()</code></p>
+    </div>
+  </section>
+
   <section class="slide" id="c7">
     <div class="slide-inner">
       <p class="k">cena 7 · o eval que pega a regressão</p>
@@ -908,6 +925,22 @@ app.Run();</pre>
           <div class="postit small"><h4>o resto</h4>Está em <code>Tools/</code>, <code>Dashboard/</code>, <code>Security/</code> e <code>OnCall/</code>.</div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="slide" id="hospedagem">
+    <div class="slide-inner">
+      <p class="k">10 · em produção · onde roda</p>
+      <h2 class="t-md">O mesmo agente, três jeitos de <span class="accent">hospedar</span>.</h2>
+      <table class="ledger">
+        <thead><tr><th>Onde</th><th>O que vem junto</th><th>Você ainda cuida de</th></tr></thead>
+        <tbody>
+          <tr><td class="strong">Container <span class="tag">Container Apps, App Service, AKS</span></td><td>o que a demo já é: ASP.NET + Aspire</td><td>store de sessão, escala, deploy</td></tr>
+          <tr><td class="strong">Foundry Hosted Agents</td><td>runtime gerenciado, provisionamento e escala</td><td>o código do agente</td></tr>
+          <tr><td class="accent-t">Durable <span class="who">o plantão</span><span class="tag">Azure Functions ou seu host</span></td><td>sessão que sobrevive a restart, checkpoint, espera humana sem gastar compute</td><td>a orquestração</td></tr>
+        </tbody>
+      </table>
+      <p class="lede" style="max-width:none">Na demo, <code>WithInMemorySessionStore</code> perde a conversa ao reiniciar. É essa linha que muda.</p>
     </div>
   </section>
 
